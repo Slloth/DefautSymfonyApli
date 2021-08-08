@@ -16,7 +16,6 @@
         "doctrine/orm": "^2.9",
         "friendsofphp/php-cs-fixer": "^3.0",
         "phpdocumentor/reflection-docblock": "^5.2",
-        "phpstan/phpstan": "^0.12.94",
         "sensio/framework-extra-bundle": "^6.1",
         "symfony/asset": "5.3.*",
         "symfony/console": "5.3.*",
