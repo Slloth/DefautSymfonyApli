@@ -15,3 +15,37 @@
     width: max-content;
     font-size: x-small;
 }
+body{
+    margin:0;
+    font-family: 'Prompt',sans-serif;
+    color: white;
+    background-color: #202731;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    h1{
+        z-index: 1;
+    }
+    p{
+        z-index: 1;
+    }
+}
+
+.spacer{
+    aspect-ratio: 960/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blob-motion{
+    position: absolute;
+    transform: translateY(-20%);
+}
