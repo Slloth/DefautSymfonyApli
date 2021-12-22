@@ -3,12 +3,9 @@
 {% block title %}{{ page.name|raw }}{% endblock %}
 
 {% block body %}
-<div class="container pt-5 pb-5">
-    <section class="mb-5 pb-5">
-        {% include "partial/__flashMessages.html.twig" %}
-        {{ page.content|raw}}
-    </section>
+
+    {% include "partial/__flashMessages.html.twig" %}
+    {{ page.content|raw}}
     {% include "partial/__comment.html.twig" %}
-</div>
 
 {% endblock %}
